@@ -8,6 +8,7 @@ Release Notes
         * Sped up permutation importance for some pipelines :pr:`1762`
     * Fixes
     * Changes
+        * Added ``random_seed`` as an argument to our automl/pipeline/component api. Using ``random_state`` will raise a warning :pr:`1798`
     * Documentation Changes
         * Added section on conda to the contributing guide :pr:`1771`
         * Updated release process to reflect freezing `main` before perf tests :pr:`1787`
